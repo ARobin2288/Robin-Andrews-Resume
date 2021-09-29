@@ -10,10 +10,8 @@ body {
     min-width: 1100px;
     color: white;
     display: block;
-    border-right: 18px solid;
+    
 }
-
-
 
 #top {
     margin: 0 auto;
@@ -43,8 +41,48 @@ h1 {
 }
 
 .myInfo {
-    padding: 22px 0px;
+    padding: 8px 0px;
+    letter-spacing: 3px;
+    font-size: 17px;
 }
+
+.myInfo i {
+    padding-right: 16px;
+    font-size: 22px;
+    line-height: 38px;
+}
+
+#middle {
+    border-top: 2px solid yellow;
+    border-bottom: 2px solid yellow;
+}
+
+#middle h5 {
+    font-size: 22px;
+    line-height: 38px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+#middle .mid {
+    padding: 32px 0px 0px 42px;
+}
+
+#middle i {
+    font-size: 18px;
+    padding-right: 8px;
+}
+
+.leftSide {
+    border-right: 2px solid yellow;
+}
+
+span i {
+    padding: 0px 2px;
+}
+
+
+
 
 
 
