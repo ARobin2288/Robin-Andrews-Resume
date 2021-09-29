@@ -59,14 +59,14 @@ h1 {
 }
 
 #middle h5 {
-    font-size: 22px;
+    font-size: 18px;
     line-height: 38px;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
 
 #middle .mid {
-    padding: 32px 0px 32px 22px;
+    padding: 32px 0px 2px 22px;
     
 }
 
@@ -135,7 +135,7 @@ h1 {
 }
 
 .experience li {
-    line-height: 28px;
+    line-height: 16px;
     padding-bottom: 8px;
 }
 .experience span {
