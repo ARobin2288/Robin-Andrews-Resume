@@ -67,31 +67,29 @@ h1 {
 
 #middle .mid {
     padding: 32px 0px 32px 22px;
-
+    
 }
 
 #middle i {
     font-size: 18px;
-    /* padding-right: 8px; */
 }
 
 .leftSide {
     border-right: 2px solid yellow;
-    /* padding-bottom: 22px; */
+    padding-bottom: 22px;
 }
 
 .school ul {
     list-style-type: none;
-    /* margin: 0 auto;
-    padding-left: 42px; */
 }
 
 .school li {
-    /* padding-bottom: 8px; */
+    padding-bottom: 10px;
     line-height: 22px;
 }
 .skills span i {
     font-size: 2px;
+    text-align: left;
 }
 
 .skills ul {
@@ -109,15 +107,40 @@ h1 {
     cursor: pointer;
 }
 
+.certificates a:hover {
+    color: yellow;
+    
+}
+
 .certificates li {
     list-style-type: square;
-    /* line-height: 32px; */
+    line-height: 28px;
     letter-spacing: 1px;
     text-transform: uppercase;
     font-size: 16px;
 }
 
+.profile p {
+    font-size: 16px;
+    width: 518px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    padding-left: 26px;
+}
 
+.experience ul {
+    font-size: 17px;
+    list-style: none;
+    padding: 3px 28px;
+}
+
+.experience li {
+    line-height: 28px;
+    padding-bottom: 8px;
+}
+.experience span {
+    padding-left: 52px;
+}
 
 
 /* #yellow {
