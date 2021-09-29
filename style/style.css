@@ -15,13 +15,12 @@ body {
 
 #top {
     margin: 0 auto;
-    padding: 82px 0px 68px 50px;
+    padding: 72px 0px 0px 78px;
 }
 
 
 img {
     border-radius: 50%;
-    margin-left: 12px;
     height: 200px;
     justify-content: center;
 }
@@ -43,18 +42,20 @@ h1 {
 .myInfo {
     padding: 8px 0px;
     letter-spacing: 3px;
-    font-size: 17px;
+    font-size: 16px;
 }
 
 .myInfo i {
     padding-right: 16px;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 38px;
 }
 
 #middle {
     border-top: 2px solid yellow;
     border-bottom: 2px solid yellow;
+    margin: 46px 22px 46px 22px;
+
 }
 
 #middle h5 {
@@ -65,25 +66,56 @@ h1 {
 }
 
 #middle .mid {
-    padding: 32px 0px 0px 42px;
+    padding: 32px 0px 32px 22px;
+
 }
 
 #middle i {
     font-size: 18px;
-    padding-right: 8px;
+    /* padding-right: 8px; */
 }
 
 .leftSide {
     border-right: 2px solid yellow;
+    /* padding-bottom: 22px; */
 }
 
-span i {
-    padding: 0px 2px;
+.school ul {
+    list-style-type: none;
+    /* margin: 0 auto;
+    padding-left: 42px; */
 }
 
+.school li {
+    /* padding-bottom: 8px; */
+    line-height: 22px;
+}
+.skills span i {
+    font-size: 2px;
+}
 
+.skills ul {
+    list-style: none;
+    text-transform: uppercase;
+}
 
+.skills span {
+    margin-left: 122px;
+}
 
+.certificates a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.certificates li {
+    list-style-type: square;
+    /* line-height: 32px; */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
 
 
 
