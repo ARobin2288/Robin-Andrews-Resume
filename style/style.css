@@ -134,13 +134,26 @@ h1 {
     padding: 3px 28px;
 }
 
+.date {
+    margin: 0 auto;
+    color: red;
+    padding-right: -22px;
+}
+
+em {
+    font-size: 14px;
+}
 .experience li {
     line-height: 16px;
     padding-bottom: 8px;
 }
-.experience span {
-    padding-left: 52px;
+
+.workInfo li {
+    line-height: 18px;
+    letter-spacing: 1px;
+    font-size: 14px;
 }
+
 
 
 /* #yellow {
