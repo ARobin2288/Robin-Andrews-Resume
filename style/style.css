@@ -1,28 +1,31 @@
-body {
+html, body {
     margin: 0 auto;
-    width: max-content;
+    background: yellow;
+    display: contents;
+
 }
 
+* {
+    box-sizing: border-box;
+}
 
-.container {
+.full-container {
     background-color: #5d6c89;
-    margin: 0 auto;
-    min-width: 1100px;
     color: white;
     display: block;
-    
+    width: 96%;
+    padding-top: 68px;
 }
-
-#top {
-    margin: 0 auto;
-    padding: 72px 0px 0px 78px;
-}
-
 
 img {
     border-radius: 50%;
-    height: 200px;
-    justify-content: center;
+    height: 225px;
+    position: absolute;
+    left: 8%;
+}
+
+.start{
+    width: fit-content;
 }
 
 .header {
@@ -98,7 +101,9 @@ h1 {
 }
 
 .skills span {
-    margin-left: 122px;
+    display: flex;
+    justify-content: left;
+    padding-left: 200px;
 }
 
 .certificates a {
@@ -129,34 +134,30 @@ h1 {
 }
 
 .experience ul {
-    font-size: 17px;
+    font-size: 18px;
     list-style: none;
-    padding: 3px 28px;
 }
 
 .date {
     margin: 0 auto;
-    color: red;
-    padding-right: -22px;
+    display: flex;
+    justify-content: right;
 }
 
 em {
-    font-size: 14px;
+    font-size: 16px;
 }
 .experience li {
-    line-height: 16px;
+    line-height: 8px;
     padding-bottom: 8px;
 }
 
+.workInfo {
+    padding: 18px 22px 32px 18px;
+}
+
 .workInfo li {
-    line-height: 18px;
+    line-height: 20px;
     letter-spacing: 1px;
     font-size: 14px;
 }
-
-
-
-/* #yellow {
-    background-color: #fad02c;
-
-} */
