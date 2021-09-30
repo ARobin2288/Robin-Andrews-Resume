@@ -1,163 +1,233 @@
-html, body {
-    margin: 0 auto;
-    background: yellow;
-    display: contents;
-
+html,
+body {
+  margin: 0 auto;
+  background: #d89216;
+  display: contents;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .full-container {
-    background-color: #5d6c89;
-    color: white;
-    display: block;
-    width: 96%;
-    padding-top: 68px;
+  background-color: #45526c;
+  color: #f8f5f1;
+  display: block;
+  width: 96%;
+  padding-top: 68px;
 }
 
 img {
-    border-radius: 50%;
-    height: 225px;
-    position: absolute;
-    left: 8%;
+  border-radius: 50%;
+  height: 225px;
+  position: absolute;
+  left: 8%;
 }
 
-.start{
-    width: fit-content;
+.start {
+  width: fit-content;
 }
 
 .header {
-    margin-bottom: 28px;
-    padding: 2px 0px 1px 18px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    border-left: 3px solid yellow;
-    border-left-width: 18px;
+  margin-bottom: 28px;
+  padding: 0px 0px 0px 18px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  border-left: 18px solid #d89216;
 }
 
 h1 {
-    padding-bottom: 6px;
-    letter-spacing: 2px;
+  padding-bottom: 6px;
+  letter-spacing: 2px;
 }
 
 .myInfo {
-    padding: 8px 0px;
-    letter-spacing: 3px;
-    font-size: 16px;
+  letter-spacing: 3px;
 }
 
+.email a {
+  color: #f8f5f1;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.email a:hover {
+  color: #d89216;
+  font-size: 18px;
+}
 .myInfo i {
-    padding-right: 16px;
-    font-size: 18px;
-    line-height: 38px;
+  padding-right: 16px;
+  font-size: 18px;
+  line-height: 38px;
 }
 
 #middle {
-    border-top: 2px solid yellow;
-    border-bottom: 2px solid yellow;
-    margin: 46px 22px 46px 22px;
-
+  border-top: 2px solid #d89216;
+  border-bottom: 2px solid #d89216;
+  margin: 32px 0;
+  font-size: 14px;
 }
 
-#middle h5 {
-    font-size: 18px;
-    line-height: 38px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
+.rightSide {
+  border-left: 2px solid #d89216;
 }
 
 #middle .mid {
-    padding: 32px 0px 2px 22px;
-    
+  padding: 32px 0px 0px 32px;
+  margin-bottom: -18px;
 }
 
-#middle i {
-    font-size: 18px;
+#middle h5 {
+  font-size: 16px;
+  line-height: 36px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
-.leftSide {
-    border-right: 2px solid yellow;
-    padding-bottom: 22px;
+#middle h5 i {
+  font-size: 15px;
+  padding-right: 8px;
 }
 
-.school ul {
-    list-style-type: none;
+ul {
+  list-style-type: square;
+}
+
+.school {
+  border-bottom: 1px solid #d89216;
+  margin-right: -24px;
+}
+.school ul ul {
+  list-style: none;
+  padding-left: 10px;
+  padding-top: 6px;
+  font-style: italic;
+  font-size: 13px;
 }
 
 .school li {
-    padding-bottom: 10px;
-    line-height: 22px;
+  padding-bottom: 12px;
+  line-height: 22px;
 }
-.skills span i {
-    font-size: 2px;
-    text-align: left;
+
+.skills {
+  border-bottom: 1px solid #d89216;
+  margin-right: -24px;
 }
 
 .skills ul {
-    list-style: none;
-    text-transform: uppercase;
+  list-style-type: none;
+  text-align: left;
+  margin-bottom: 36px;
 }
 
-.skills span {
-    display: flex;
-    justify-content: left;
-    padding-left: 200px;
+.skills li {
+  line-height: 22px;
+  letter-spacing: 1px;
+  padding-bottom: 2px;
+  text-transform: uppercase;
 }
 
+.skills span i {
+  width: 0px;
+  font-size: 11px;
+  padding-left: 12px;
+}
+
+.certificates {
+  border-bottom: 1px solid #d89216;
+  margin-right: -24px;
+  margin-top: 2px;
+}
 .certificates a {
-    color: white;
-    text-decoration: none;
-    cursor: pointer;
+  color: #f8f5f1;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 12px;
+  transition: all 0.2s ease;
 }
 
 .certificates a:hover {
-    color: yellow;
-    
+  color: #d89216;
+  font-size: 14px;
 }
 
 .certificates li {
-    list-style-type: square;
-    line-height: 28px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    font-size: 16px;
+  list-style-type: square;
+  line-height: 22px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
 }
 
+.socialMedia {
+  margin-right: -24px;
+}
+
+.socialMedia li {
+  line-height: 22px;
+  list-style: none;
+  letter-spacing: 1px;
+}
+
+.socialMedia a {
+  color: #f8f5f1;
+  font-size: 13px;
+  text-decoration: none;
+  transform: all 0.5s ease-in;
+}
+
+.socialMedia a:hover {
+  color: #d89216;
+  font-size: 14px;
+}
 .profile p {
-    font-size: 16px;
-    width: 518px;
-    letter-spacing: 1px;
-    line-height: 25px;
-    padding-left: 26px;
+  font-size: 14px;
+  line-height: 25px;
+  padding-left: 45px;
+  text-indent: 28px;
 }
 
-.experience ul {
-    font-size: 18px;
-    list-style: none;
+.experience .title {
+  font-size: 16px;
+  list-style: none;
+  line-height: 14px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-indent: 2px;
 }
 
 .date {
-    margin: 0 auto;
-    display: flex;
-    justify-content: right;
+  margin: 0 auto;
+  display: flex;
+  justify-content: right;
+  font-weight: normal;
 }
 
-em {
-    font-size: 16px;
+.role {
+  font-size: 15px;
+  list-style: none;
+  text-indent: 12px;
+  letter-spacing: 1px;
 }
+
 .experience li {
-    line-height: 8px;
-    padding-bottom: 8px;
+  line-height: 8px;
 }
 
 .workInfo {
-    padding: 18px 22px 32px 18px;
+  padding: 18px 8px 28px 38px;
+  list-style: square;
 }
 
 .workInfo li {
-    line-height: 20px;
-    letter-spacing: 1px;
-    font-size: 14px;
+  line-height: 22px;
+  font-size: 14px;
 }
+
+#bottom {
+  font-size: 10px;
+  margin: 0 auto;
+  padding: 2px 0 2px 8px;
+}
+
